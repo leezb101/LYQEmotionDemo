@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F445D901D7E67D100BBF97F /* LYQEmotionTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F445D8F1D7E67D100BBF97F /* LYQEmotionTabBarButton.m */; };
+		6F445D931D7E68CA00BBF97F /* LYQEmotionTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F445D921D7E68CA00BBF97F /* LYQEmotionTabBar.m */; };
+		6F445D961D7EA59D00BBF97F /* LYQEmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F445D951D7EA59D00BBF97F /* LYQEmotionListView.m */; };
+		6F50FE861D7D07F500B088BF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE6E1D7D07F500B088BF /* MASCompositeConstraint.m */; };
+		6F50FE871D7D07F500B088BF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE711D7D07F500B088BF /* MASConstraint.m */; };
+		6F50FE881D7D07F500B088BF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE731D7D07F500B088BF /* MASConstraintMaker.m */; };
+		6F50FE891D7D07F500B088BF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE751D7D07F500B088BF /* MASLayoutConstraint.m */; };
+		6F50FE8A1D7D07F500B088BF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE791D7D07F500B088BF /* MASViewAttribute.m */; };
+		6F50FE8B1D7D07F500B088BF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE7B1D7D07F500B088BF /* MASViewConstraint.m */; };
+		6F50FE8C1D7D07F500B088BF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE7D1D7D07F500B088BF /* NSArray+MASAdditions.m */; };
+		6F50FE8D1D7D07F500B088BF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE801D7D07F500B088BF /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		6F50FE8E1D7D07F500B088BF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE821D7D07F500B088BF /* View+MASAdditions.m */; };
+		6F50FE8F1D7D07F500B088BF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE851D7D07F500B088BF /* ViewController+MASAdditions.m */; };
+		6F50FE921D7D0EFF00B088BF /* LYQComposePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE911D7D0EFF00B088BF /* LYQComposePhotosView.m */; };
+		6F50FE951D7D1FDD00B088BF /* LYQEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE941D7D1FDD00B088BF /* LYQEmotionKeyboard.m */; };
+		6F50FE981D7D204400B088BF /* LYQEmotionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE971D7D204400B088BF /* LYQEmotionButton.m */; };
+		6F50FE9C1D7D4FF100B088BF /* LYQCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE9B1D7D4FF100B088BF /* LYQCustomTextView.m */; };
+		6F50FE9F1D7D5B5A00B088BF /* LYQEmotionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FE9E1D7D5B5A00B088BF /* LYQEmotionTextView.m */; };
+		6F50FEA21D7D5D9E00B088BF /* UITextView+EmotionEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FEA11D7D5D9E00B088BF /* UITextView+EmotionEx.m */; };
+		6F50FEA51D7D6E2400B088BF /* LYQEmotionPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F50FEA41D7D6E2400B088BF /* LYQEmotionPageView.m */; };
+		6FCE2E311D77CE13006A7528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E301D77CE13006A7528 /* main.m */; };
+		6FCE2E341D77CE13006A7528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E331D77CE13006A7528 /* AppDelegate.m */; };
+		6FCE2E371D77CE13006A7528 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E361D77CE13006A7528 /* ViewController.m */; };
+		6FCE2E3A1D77CE13006A7528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCE2E381D77CE13006A7528 /* Main.storyboard */; };
+		6FCE2E3F1D77CE13006A7528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCE2E3D1D77CE13006A7528 /* LaunchScreen.storyboard */; };
+		6FCE2E481D77CE4B006A7528 /* LYQEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E471D77CE4B006A7528 /* LYQEmotion.m */; };
+		6FCE2E611D77CF63006A7528 /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E4B1D77CF63006A7528 /* MJArgument.m */; };
+		6FCE2E621D77CF63006A7528 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E4D1D77CF63006A7528 /* MJConst.m */; };
+		6FCE2E631D77CF63006A7528 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E501D77CF63006A7528 /* MJFoundation.m */; };
+		6FCE2E641D77CF63006A7528 /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E521D77CF63006A7528 /* MJIvar.m */; };
+		6FCE2E651D77CF63006A7528 /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E541D77CF63006A7528 /* MJMember.m */; };
+		6FCE2E661D77CF63006A7528 /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E561D77CF63006A7528 /* MJMethod.m */; };
+		6FCE2E671D77CF63006A7528 /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E581D77CF63006A7528 /* MJType.m */; };
+		6FCE2E681D77CF63006A7528 /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E5A1D77CF63006A7528 /* MJTypeEncoding.m */; };
+		6FCE2E691D77CF63006A7528 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E5C1D77CF63006A7528 /* NSObject+MJCoding.m */; };
+		6FCE2E6A1D77CF63006A7528 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E5E1D77CF63006A7528 /* NSObject+MJKeyValue.m */; };
+		6FCE2E6B1D77CF63006A7528 /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E601D77CF63006A7528 /* NSObject+MJMember.m */; };
+		6FCE2E6E1D77D046006A7528 /* LYQEmotionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E6D1D77D046006A7528 /* LYQEmotionAttachment.m */; };
+		6FCE2E711D77D0EC006A7528 /* LYQRecentEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E701D77D0EC006A7528 /* LYQRecentEmotionTool.m */; };
+		6FCE2E771D7807BC006A7528 /* LYQComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE2E761D7807BC006A7528 /* LYQComposeToolbar.m */; };
+		6FDBF8451D79212B0029D2D1 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDBF8421D79212B0029D2D1 /* NSString+Emoji.m */; };
+		6FDBF8461D79212B0029D2D1 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDBF8441D79212B0029D2D1 /* NSString+Extension.m */; };
+		6FDBF8481D7922150029D2D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDBF8471D7922150029D2D1 /* Images.xcassets */; };
+		6FE4D3DF1D8116D6005AB78A /* LYQComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4D3DE1D8116D6005AB78A /* LYQComposeViewController.m */; };
+		6FE4D3E21D81475F005AB78A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4D3E11D81475F005AB78A /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F445D8E1D7E67D100BBF97F /* LYQEmotionTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotionTabBarButton.h; sourceTree = "<group>"; };
+		6F445D8F1D7E67D100BBF97F /* LYQEmotionTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotionTabBarButton.m; sourceTree = "<group>"; };
+		6F445D911D7E68CA00BBF97F /* LYQEmotionTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotionTabBar.h; sourceTree = "<group>"; };
+		6F445D921D7E68CA00BBF97F /* LYQEmotionTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotionTabBar.m; sourceTree = "<group>"; };
+		6F445D941D7EA59D00BBF97F /* LYQEmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotionListView.h; sourceTree = "<group>"; };
+		6F445D951D7EA59D00BBF97F /* LYQEmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotionListView.m; sourceTree = "<group>"; };
+		6F50FE6D1D7D07F500B088BF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		6F50FE6E1D7D07F500B088BF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		6F50FE6F1D7D07F500B088BF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		6F50FE701D7D07F500B088BF /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		6F50FE711D7D07F500B088BF /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		6F50FE721D7D07F500B088BF /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		6F50FE731D7D07F500B088BF /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		6F50FE741D7D07F500B088BF /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		6F50FE751D7D07F500B088BF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6F50FE761D7D07F500B088BF /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		6F50FE771D7D07F500B088BF /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		6F50FE781D7D07F500B088BF /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		6F50FE791D7D07F500B088BF /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		6F50FE7A1D7D07F500B088BF /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		6F50FE7B1D7D07F500B088BF /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		6F50FE7C1D7D07F500B088BF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		6F50FE7D1D7D07F500B088BF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		6F50FE7E1D7D07F500B088BF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6F50FE7F1D7D07F500B088BF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		6F50FE801D7D07F500B088BF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6F50FE811D7D07F500B088BF /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		6F50FE821D7D07F500B088BF /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		6F50FE831D7D07F500B088BF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6F50FE841D7D07F500B088BF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		6F50FE851D7D07F500B088BF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		6F50FE901D7D0EFF00B088BF /* LYQComposePhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQComposePhotosView.h; sourceTree = "<group>"; };
+		6F50FE911D7D0EFF00B088BF /* LYQComposePhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQComposePhotosView.m; sourceTree = "<group>"; };
+		6F50FE931D7D1FDD00B088BF /* LYQEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotionKeyboard.h; sourceTree = "<group>"; };
+		6F50FE941D7D1FDD00B088BF /* LYQEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotionKeyboard.m; sourceTree = "<group>"; };
+		6F50FE961D7D204400B088BF /* LYQEmotionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotionButton.h; sourceTree = "<group>"; };
+		6F50FE971D7D204400B088BF /* LYQEmotionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotionButton.m; sourceTree = "<group>"; };
+		6F50FE9A1D7D4FF100B088BF /* LYQCustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCustomTextView.h; sourceTree = "<group>"; };
+		6F50FE9B1D7D4FF100B088BF /* LYQCustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCustomTextView.m; sourceTree = "<group>"; };
+		6F50FE9D1D7D5B5A00B088BF /* LYQEmotionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotionTextView.h; sourceTree = "<group>"; };
+		6F50FE9E1D7D5B5A00B088BF /* LYQEmotionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotionTextView.m; sourceTree = "<group>"; };
+		6F50FEA01D7D5D9E00B088BF /* UITextView+EmotionEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+EmotionEx.h"; sourceTree = "<group>"; };
+		6F50FEA11D7D5D9E00B088BF /* UITextView+EmotionEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+EmotionEx.m"; sourceTree = "<group>"; };
+		6F50FEA31D7D6E2400B088BF /* LYQEmotionPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotionPageView.h; sourceTree = "<group>"; };
+		6F50FEA41D7D6E2400B088BF /* LYQEmotionPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotionPageView.m; sourceTree = "<group>"; };
+		6FCE2E2C1D77CE13006A7528 /* LYQEmotionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYQEmotionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCE2E301D77CE13006A7528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FCE2E321D77CE13006A7528 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FCE2E331D77CE13006A7528 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FCE2E351D77CE13006A7528 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FCE2E361D77CE13006A7528 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FCE2E391D77CE13006A7528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FCE2E3E1D77CE13006A7528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FCE2E401D77CE13006A7528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCE2E461D77CE4B006A7528 /* LYQEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotion.h; sourceTree = "<group>"; };
+		6FCE2E471D77CE4B006A7528 /* LYQEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotion.m; sourceTree = "<group>"; };
+		6FCE2E4A1D77CF63006A7528 /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		6FCE2E4B1D77CF63006A7528 /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		6FCE2E4C1D77CF63006A7528 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		6FCE2E4D1D77CF63006A7528 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		6FCE2E4E1D77CF63006A7528 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		6FCE2E4F1D77CF63006A7528 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		6FCE2E501D77CF63006A7528 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		6FCE2E511D77CF63006A7528 /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		6FCE2E521D77CF63006A7528 /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		6FCE2E531D77CF63006A7528 /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		6FCE2E541D77CF63006A7528 /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		6FCE2E551D77CF63006A7528 /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		6FCE2E561D77CF63006A7528 /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		6FCE2E571D77CF63006A7528 /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		6FCE2E581D77CF63006A7528 /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		6FCE2E591D77CF63006A7528 /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		6FCE2E5A1D77CF63006A7528 /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		6FCE2E5B1D77CF63006A7528 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		6FCE2E5C1D77CF63006A7528 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		6FCE2E5D1D77CF63006A7528 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		6FCE2E5E1D77CF63006A7528 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		6FCE2E5F1D77CF63006A7528 /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		6FCE2E601D77CF63006A7528 /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		6FCE2E6C1D77D046006A7528 /* LYQEmotionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQEmotionAttachment.h; sourceTree = "<group>"; };
+		6FCE2E6D1D77D046006A7528 /* LYQEmotionAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQEmotionAttachment.m; sourceTree = "<group>"; };
+		6FCE2E6F1D77D0EC006A7528 /* LYQRecentEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQRecentEmotionTool.h; sourceTree = "<group>"; };
+		6FCE2E701D77D0EC006A7528 /* LYQRecentEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQRecentEmotionTool.m; sourceTree = "<group>"; };
+		6FCE2E751D7807BC006A7528 /* LYQComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQComposeToolbar.h; sourceTree = "<group>"; };
+		6FCE2E761D7807BC006A7528 /* LYQComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQComposeToolbar.m; sourceTree = "<group>"; };
+		6FDBF8411D79212B0029D2D1 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		6FDBF8421D79212B0029D2D1 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		6FDBF8431D79212B0029D2D1 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		6FDBF8441D79212B0029D2D1 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		6FDBF8471D7922150029D2D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FE4D3DD1D8116D6005AB78A /* LYQComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQComposeViewController.h; sourceTree = "<group>"; };
+		6FE4D3DE1D8116D6005AB78A /* LYQComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQComposeViewController.m; sourceTree = "<group>"; };
+		6FE4D3E01D81475F005AB78A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		6FE4D3E11D81475F005AB78A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FCE2E291D77CE13006A7528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F50FE6C1D7D07F500B088BF /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				6F50FE6D1D7D07F500B088BF /* MASCompositeConstraint.h */,
+				6F50FE6E1D7D07F500B088BF /* MASCompositeConstraint.m */,
+				6F50FE6F1D7D07F500B088BF /* MASConstraint+Private.h */,
+				6F50FE701D7D07F500B088BF /* MASConstraint.h */,
+				6F50FE711D7D07F500B088BF /* MASConstraint.m */,
+				6F50FE721D7D07F500B088BF /* MASConstraintMaker.h */,
+				6F50FE731D7D07F500B088BF /* MASConstraintMaker.m */,
+				6F50FE741D7D07F500B088BF /* MASLayoutConstraint.h */,
+				6F50FE751D7D07F500B088BF /* MASLayoutConstraint.m */,
+				6F50FE761D7D07F500B088BF /* Masonry.h */,
+				6F50FE771D7D07F500B088BF /* MASUtilities.h */,
+				6F50FE781D7D07F500B088BF /* MASViewAttribute.h */,
+				6F50FE791D7D07F500B088BF /* MASViewAttribute.m */,
+				6F50FE7A1D7D07F500B088BF /* MASViewConstraint.h */,
+				6F50FE7B1D7D07F500B088BF /* MASViewConstraint.m */,
+				6F50FE7C1D7D07F500B088BF /* NSArray+MASAdditions.h */,
+				6F50FE7D1D7D07F500B088BF /* NSArray+MASAdditions.m */,
+				6F50FE7E1D7D07F500B088BF /* NSArray+MASShorthandAdditions.h */,
+				6F50FE7F1D7D07F500B088BF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				6F50FE801D7D07F500B088BF /* NSLayoutConstraint+MASDebugAdditions.m */,
+				6F50FE811D7D07F500B088BF /* View+MASAdditions.h */,
+				6F50FE821D7D07F500B088BF /* View+MASAdditions.m */,
+				6F50FE831D7D07F500B088BF /* View+MASShorthandAdditions.h */,
+				6F50FE841D7D07F500B088BF /* ViewController+MASAdditions.h */,
+				6F50FE851D7D07F500B088BF /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		6F50FE991D7D4FCB00B088BF /* MainComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6F50FE9A1D7D4FF100B088BF /* LYQCustomTextView.h */,
+				6F50FE9B1D7D4FF100B088BF /* LYQCustomTextView.m */,
+			);
+			name = MainComponents;
+			sourceTree = "<group>";
+		};
+		6FCE2E231D77CE13006A7528 = {
+			isa = PBXGroup;
+			children = (
+				6FCE2E2E1D77CE13006A7528 /* LYQEmotionDemo */,
+				6FCE2E2D1D77CE13006A7528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FCE2E2D1D77CE13006A7528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FCE2E2C1D77CE13006A7528 /* LYQEmotionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FCE2E2E1D77CE13006A7528 /* LYQEmotionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6F50FE6C1D7D07F500B088BF /* Masonry */,
+				6FDBF8411D79212B0029D2D1 /* NSString+Emoji.h */,
+				6FDBF8421D79212B0029D2D1 /* NSString+Emoji.m */,
+				6FDBF8431D79212B0029D2D1 /* NSString+Extension.h */,
+				6FDBF8441D79212B0029D2D1 /* NSString+Extension.m */,
+				6F50FEA01D7D5D9E00B088BF /* UITextView+EmotionEx.h */,
+				6F50FEA11D7D5D9E00B088BF /* UITextView+EmotionEx.m */,
+				6FE4D3E01D81475F005AB78A /* UIView+Extension.h */,
+				6FE4D3E11D81475F005AB78A /* UIView+Extension.m */,
+				6FCE2E741D780779006A7528 /* View */,
+				6FCE2E731D780768006A7528 /* Model */,
+				6FE4D3DA1D8112D1005AB78A /* Controller */,
+				6FCE2E721D780750006A7528 /* Tools */,
+				6FCE2E491D77CF63006A7528 /* MJExtension */,
+				6FCE2E321D77CE13006A7528 /* AppDelegate.h */,
+				6FCE2E331D77CE13006A7528 /* AppDelegate.m */,
+				6FCE2E351D77CE13006A7528 /* ViewController.h */,
+				6FCE2E361D77CE13006A7528 /* ViewController.m */,
+				6F50FE991D7D4FCB00B088BF /* MainComponents */,
+				6FDBF8471D7922150029D2D1 /* Images.xcassets */,
+				6FCE2E381D77CE13006A7528 /* Main.storyboard */,
+				6FCE2E3D1D77CE13006A7528 /* LaunchScreen.storyboard */,
+				6FCE2E401D77CE13006A7528 /* Info.plist */,
+				6FCE2E2F1D77CE13006A7528 /* Supporting Files */,
+			);
+			path = LYQEmotionDemo;
+			sourceTree = "<group>";
+		};
+		6FCE2E2F1D77CE13006A7528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FCE2E301D77CE13006A7528 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FCE2E491D77CF63006A7528 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6FCE2E4A1D77CF63006A7528 /* MJArgument.h */,
+				6FCE2E4B1D77CF63006A7528 /* MJArgument.m */,
+				6FCE2E4C1D77CF63006A7528 /* MJConst.h */,
+				6FCE2E4D1D77CF63006A7528 /* MJConst.m */,
+				6FCE2E4E1D77CF63006A7528 /* MJExtension.h */,
+				6FCE2E4F1D77CF63006A7528 /* MJFoundation.h */,
+				6FCE2E501D77CF63006A7528 /* MJFoundation.m */,
+				6FCE2E511D77CF63006A7528 /* MJIvar.h */,
+				6FCE2E521D77CF63006A7528 /* MJIvar.m */,
+				6FCE2E531D77CF63006A7528 /* MJMember.h */,
+				6FCE2E541D77CF63006A7528 /* MJMember.m */,
+				6FCE2E551D77CF63006A7528 /* MJMethod.h */,
+				6FCE2E561D77CF63006A7528 /* MJMethod.m */,
+				6FCE2E571D77CF63006A7528 /* MJType.h */,
+				6FCE2E581D77CF63006A7528 /* MJType.m */,
+				6FCE2E591D77CF63006A7528 /* MJTypeEncoding.h */,
+				6FCE2E5A1D77CF63006A7528 /* MJTypeEncoding.m */,
+				6FCE2E5B1D77CF63006A7528 /* NSObject+MJCoding.h */,
+				6FCE2E5C1D77CF63006A7528 /* NSObject+MJCoding.m */,
+				6FCE2E5D1D77CF63006A7528 /* NSObject+MJKeyValue.h */,
+				6FCE2E5E1D77CF63006A7528 /* NSObject+MJKeyValue.m */,
+				6FCE2E5F1D77CF63006A7528 /* NSObject+MJMember.h */,
+				6FCE2E601D77CF63006A7528 /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		6FCE2E721D780750006A7528 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6FCE2E6F1D77D0EC006A7528 /* LYQRecentEmotionTool.h */,
+				6FCE2E701D77D0EC006A7528 /* LYQRecentEmotionTool.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		6FCE2E731D780768006A7528 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FCE2E461D77CE4B006A7528 /* LYQEmotion.h */,
+				6FCE2E471D77CE4B006A7528 /* LYQEmotion.m */,
+				6FCE2E6C1D77D046006A7528 /* LYQEmotionAttachment.h */,
+				6FCE2E6D1D77D046006A7528 /* LYQEmotionAttachment.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6FCE2E741D780779006A7528 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FCE2E751D7807BC006A7528 /* LYQComposeToolbar.h */,
+				6FCE2E761D7807BC006A7528 /* LYQComposeToolbar.m */,
+				6F50FE901D7D0EFF00B088BF /* LYQComposePhotosView.h */,
+				6F50FE911D7D0EFF00B088BF /* LYQComposePhotosView.m */,
+				6F50FE931D7D1FDD00B088BF /* LYQEmotionKeyboard.h */,
+				6F50FE941D7D1FDD00B088BF /* LYQEmotionKeyboard.m */,
+				6F445D941D7EA59D00BBF97F /* LYQEmotionListView.h */,
+				6F445D951D7EA59D00BBF97F /* LYQEmotionListView.m */,
+				6F445D911D7E68CA00BBF97F /* LYQEmotionTabBar.h */,
+				6F445D921D7E68CA00BBF97F /* LYQEmotionTabBar.m */,
+				6F445D8E1D7E67D100BBF97F /* LYQEmotionTabBarButton.h */,
+				6F445D8F1D7E67D100BBF97F /* LYQEmotionTabBarButton.m */,
+				6F50FEA31D7D6E2400B088BF /* LYQEmotionPageView.h */,
+				6F50FEA41D7D6E2400B088BF /* LYQEmotionPageView.m */,
+				6F50FE9D1D7D5B5A00B088BF /* LYQEmotionTextView.h */,
+				6F50FE9E1D7D5B5A00B088BF /* LYQEmotionTextView.m */,
+				6F50FE961D7D204400B088BF /* LYQEmotionButton.h */,
+				6F50FE971D7D204400B088BF /* LYQEmotionButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6FE4D3DA1D8112D1005AB78A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6FE4D3DD1D8116D6005AB78A /* LYQComposeViewController.h */,
+				6FE4D3DE1D8116D6005AB78A /* LYQComposeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FCE2E2B1D77CE13006A7528 /* LYQEmotionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FCE2E431D77CE13006A7528 /* Build configuration list for PBXNativeTarget "LYQEmotionDemo" */;
+			buildPhases = (
+				6FCE2E281D77CE13006A7528 /* Sources */,
+				6FCE2E291D77CE13006A7528 /* Frameworks */,
+				6FCE2E2A1D77CE13006A7528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYQEmotionDemo;
+			productName = LYQEmotionDemo;
+			productReference = 6FCE2E2C1D77CE13006A7528 /* LYQEmotionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FCE2E241D77CE13006A7528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = leezb101;
+				TargetAttributes = {
+					6FCE2E2B1D77CE13006A7528 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D7MYVPXR97;
+					};
+				};
+			};
+			buildConfigurationList = 6FCE2E271D77CE13006A7528 /* Build configuration list for PBXProject "LYQEmotionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FCE2E231D77CE13006A7528;
+			productRefGroup = 6FCE2E2D1D77CE13006A7528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FCE2E2B1D77CE13006A7528 /* LYQEmotionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FCE2E2A1D77CE13006A7528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDBF8481D7922150029D2D1 /* Images.xcassets in Resources */,
+				6FCE2E3F1D77CE13006A7528 /* LaunchScreen.storyboard in Resources */,
+				6FCE2E3A1D77CE13006A7528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FCE2E281D77CE13006A7528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F50FE981D7D204400B088BF /* LYQEmotionButton.m in Sources */,
+				6FCE2E481D77CE4B006A7528 /* LYQEmotion.m in Sources */,
+				6FCE2E631D77CF63006A7528 /* MJFoundation.m in Sources */,
+				6FCE2E611D77CF63006A7528 /* MJArgument.m in Sources */,
+				6FCE2E661D77CF63006A7528 /* MJMethod.m in Sources */,
+				6F50FE891D7D07F500B088BF /* MASLayoutConstraint.m in Sources */,
+				6FCE2E371D77CE13006A7528 /* ViewController.m in Sources */,
+				6FCE2E671D77CF63006A7528 /* MJType.m in Sources */,
+				6FCE2E651D77CF63006A7528 /* MJMember.m in Sources */,
+				6FCE2E771D7807BC006A7528 /* LYQComposeToolbar.m in Sources */,
+				6FCE2E6B1D77CF63006A7528 /* NSObject+MJMember.m in Sources */,
+				6F50FE921D7D0EFF00B088BF /* LYQComposePhotosView.m in Sources */,
+				6F50FE8A1D7D07F500B088BF /* MASViewAttribute.m in Sources */,
+				6FCE2E691D77CF63006A7528 /* NSObject+MJCoding.m in Sources */,
+				6F50FE881D7D07F500B088BF /* MASConstraintMaker.m in Sources */,
+				6F50FE8E1D7D07F500B088BF /* View+MASAdditions.m in Sources */,
+				6F445D901D7E67D100BBF97F /* LYQEmotionTabBarButton.m in Sources */,
+				6F50FE8B1D7D07F500B088BF /* MASViewConstraint.m in Sources */,
+				6F50FE861D7D07F500B088BF /* MASCompositeConstraint.m in Sources */,
+				6F50FE951D7D1FDD00B088BF /* LYQEmotionKeyboard.m in Sources */,
+				6F50FE9C1D7D4FF100B088BF /* LYQCustomTextView.m in Sources */,
+				6F50FE9F1D7D5B5A00B088BF /* LYQEmotionTextView.m in Sources */,
+				6F445D931D7E68CA00BBF97F /* LYQEmotionTabBar.m in Sources */,
+				6F445D961D7EA59D00BBF97F /* LYQEmotionListView.m in Sources */,
+				6FE4D3E21D81475F005AB78A /* UIView+Extension.m in Sources */,
+				6FCE2E711D77D0EC006A7528 /* LYQRecentEmotionTool.m in Sources */,
+				6FCE2E681D77CF63006A7528 /* MJTypeEncoding.m in Sources */,
+				6F50FEA51D7D6E2400B088BF /* LYQEmotionPageView.m in Sources */,
+				6FE4D3DF1D8116D6005AB78A /* LYQComposeViewController.m in Sources */,
+				6FCE2E641D77CF63006A7528 /* MJIvar.m in Sources */,
+				6FCE2E6E1D77D046006A7528 /* LYQEmotionAttachment.m in Sources */,
+				6FCE2E6A1D77CF63006A7528 /* NSObject+MJKeyValue.m in Sources */,
+				6F50FE871D7D07F500B088BF /* MASConstraint.m in Sources */,
+				6FDBF8461D79212B0029D2D1 /* NSString+Extension.m in Sources */,
+				6FCE2E341D77CE13006A7528 /* AppDelegate.m in Sources */,
+				6F50FE8D1D7D07F500B088BF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6F50FE8C1D7D07F500B088BF /* NSArray+MASAdditions.m in Sources */,
+				6F50FE8F1D7D07F500B088BF /* ViewController+MASAdditions.m in Sources */,
+				6FCE2E621D77CF63006A7528 /* MJConst.m in Sources */,
+				6FDBF8451D79212B0029D2D1 /* NSString+Emoji.m in Sources */,
+				6F50FEA21D7D5D9E00B088BF /* UITextView+EmotionEx.m in Sources */,
+				6FCE2E311D77CE13006A7528 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FCE2E381D77CE13006A7528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FCE2E391D77CE13006A7528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FCE2E3D1D77CE13006A7528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FCE2E3E1D77CE13006A7528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FCE2E411D77CE13006A7528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FCE2E421D77CE13006A7528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FCE2E441D77CE13006A7528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7MYVPXR97;
+				INFOPLIST_FILE = LYQEmotionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leezb101Test.LYQEmotionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FCE2E451D77CE13006A7528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7MYVPXR97;
+				INFOPLIST_FILE = LYQEmotionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leezb101Test.LYQEmotionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FCE2E271D77CE13006A7528 /* Build configuration list for PBXProject "LYQEmotionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCE2E411D77CE13006A7528 /* Debug */,
+				6FCE2E421D77CE13006A7528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FCE2E431D77CE13006A7528 /* Build configuration list for PBXNativeTarget "LYQEmotionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FCE2E441D77CE13006A7528 /* Debug */,
+				6FCE2E451D77CE13006A7528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FCE2E241D77CE13006A7528 /* Project object */;
+}
